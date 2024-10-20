@@ -5,9 +5,10 @@ let mystring2 = "world";
 mystring1 + mystring2 + "1";
 function displayGreeting(name, salutation= 'your an asshole') {
     console.log(`${salutation},${name}`);
+        const message = `hello, ${name}`;
   }
-  function creategreetingmessage(name) {
-    const message = `hello, ${name}`;
-    return message;
-  }
- 
+ function createGreetingMessage(name) {
+    const message = `Hello, ${name}`; 
+    return message;  
+ }
+const greetingmessage = createGreetingMessage('rick');
